@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+
+  <script>
+    // This is the buggy code
+    document.getElementByIdx('myDiv').innerHTML = "Hello, world!";
+  </script>
+</body>
+</html>
